@@ -1,7 +1,5 @@
 body {
     font-family: arial, helvetica;
-    
-
 }
 #info {width:160px; border:thin solid silver; padding:.5em; position:fixed;}
 #info h1 {margin: 0;}
@@ -16,4 +14,35 @@ h4 {
     margin: 0;
     padding: 0;
     color:cadetblue
+}
+
+/*
+ * Ejercicio 1
+ */
+div#numero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 0 10px;
+    width: fit-content;
+    border: 1px solid black;
+}
+
+
+div#numero:hover {
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*
+ * Ejercicio 3
+ */
+div#info header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div#info p {
+    font-size: 14px;
 }
